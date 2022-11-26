@@ -1,0 +1,42 @@
+name: uicons
+description: Uicons Flutter package project.
+version: 0.0.1
+homepage: "https://www.flaticon.com/uicons/interface-icons"
+publish_to: none
+
+environment:
+  sdk: '>=2.19.0-255.2.beta <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  uicons_bold_rounded:
+    path: ../uicons_bold_rounded
+
+  uicons_bold_straight:
+    path: ../uicons_bold_straight
+
+  uicons_brands:
+    path: ../uicons_brands
+
+  uicons_regular_rounded:
+    path: ../uicons_regular_rounded
+
+  uicons_regular_straight:
+    path: ../uicons_regular_straight
+
+  uicons_solid_rounded:
+    path: ../uicons_solid_rounded
+
+  uicons_solid_straight:
+    path: ../uicons_solid_straight
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+

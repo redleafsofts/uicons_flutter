@@ -1,0 +1,24 @@
+name: uicons_regular_rounded
+description: A new Flutter package project.
+version: 0.0.1
+homepage: "https://www.flaticon.com/uicons/interface-icons"
+
+environment:
+  sdk: '>=2.19.0-255.2.beta <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  fonts:
+    - family: uicons_regular_rounded
+      fonts:
+       - asset: fonts/uicons_regular_rounded.ttf
