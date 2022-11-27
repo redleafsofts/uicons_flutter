@@ -21,4 +21,4 @@ flutter:
   fonts:
     - family: uicons_brands
       fonts:
-       - asset: fonts/uicons_brands.ttf
+       - asset: font/uicons_brands.ttf

@@ -21,4 +21,4 @@ flutter:
   fonts:
     - family: uicons_solid_rounded
       fonts:
-       - asset: fonts/uicons_solid_rounded.ttf
+       - asset: font/uicons_solid_rounded.ttf

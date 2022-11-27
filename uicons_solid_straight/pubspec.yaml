@@ -21,4 +21,4 @@ flutter:
   fonts:
     - family: uicons_solid_straight
       fonts:
-       - asset: fonts/uicons_solid_straight.ttf
+       - asset: font/uicons_solid_straight.ttf

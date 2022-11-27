@@ -1,6 +1,6 @@
-# example
+# uicons
 
-A new Flutter project.
+Un-Official UIcons for Flutter.
 
 ## Getting Started
 
