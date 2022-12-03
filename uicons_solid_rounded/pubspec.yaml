@@ -1,6 +1,7 @@
 name: uicons_solid_rounded
-description: A new Flutter package project.
+description: Flutter Icons for UIcons Solid Rounded.
 version: 1.0.0
+repository: "https://github.com/redleafsofts/uicons_flutter"
 homepage: "https://www.flaticon.com/uicons/interface-icons"
 
 environment:

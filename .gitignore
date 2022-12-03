@@ -81,3 +81,8 @@ uicons/example/macos/Flutter/GeneratedPluginRegistrant.swift
 uicons/example/linux/flutter/generated_plugins.cmake
 uicons/example/linux/flutter/generated_plugin_registrant.h
 uicons/example/linux/flutter/generated_plugin_registrant.cc
+.idea/.name
+.idea/modules.xml
+.idea/runConfigurations/melos_bootstrap.xml
+.idea/runConfigurations/melos_clean.xml
+melos_melos.iml

@@ -1,6 +1,7 @@
 name: uicons_regular_rounded
-description: A new Flutter package project.
+description: Flutter Icons for UIcons Regular Rounded.
 version: 1.0.0
+repository: "https://github.com/redleafsofts/uicons_flutter"
 homepage: "https://www.flaticon.com/uicons/interface-icons"
 
 environment:

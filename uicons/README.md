@@ -3,7 +3,7 @@
 ![Cover](images\uicons_cover.png)
 
 
-Derived Flutter IconPack of Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
+Flutter IconPack of Uicons.
 
 ## Installation
 ____
@@ -70,3 +70,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>

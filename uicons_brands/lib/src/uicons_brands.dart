@@ -3,6 +3,12 @@
 import 'package:flutter/widgets.dart';
 
 /// UIcons Brands Icons
+/// 
+/// 
+/// ```dart
+/// UIconsBrands().google
+/// ```
+/// 
 class UIconsBrands {
 
   const UIconsBrands();
