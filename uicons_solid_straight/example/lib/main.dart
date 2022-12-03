@@ -221,7 +221,11 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         title: Text(widget.title),
       ),
-      body: IconsCard(icons: icons, category: "Solid Straight"),
+      body: SingleChildScrollView(
+        child: Container(
+            padding: const EdgeInsets.all(8.0),
+            child: IconsCard(icons: icons, category: "Bold Rounded")),
+      ),
     );
   }
 }
@@ -234,24 +238,15 @@ class IconsCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-        children: [
-          Card(
-            elevation: 8,
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: Expanded(
-                child: Wrap(
-                  runSpacing: 16,
-                  spacing: 16,
-                  children: iconsList(),
-                ),
-              ),
-            ),
-          ),
-        ],
+    return Card(
+      elevation: 8,
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Wrap(
+          runSpacing: 16,
+          spacing: 16,
+          children: iconsList(),
+        ),
       ),
     );
   }
