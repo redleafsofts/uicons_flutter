@@ -10,8 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  uicons:
-    path: ../../uicons
+  uicons_bold_rounded:
+    path: ..
 
   cupertino_icons: ^1.0.2
 

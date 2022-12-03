@@ -1,6 +1,5 @@
 import 'package:example/icons.dart';
 import 'package:flutter/material.dart';
-import 'package:uicons/uicons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +34,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     ThemeData theme = Theme.of(context);
@@ -56,16 +54,15 @@ class _MyHomePageState extends State<MyHomePage> {
             isScrollable: true,
             labelPadding: const EdgeInsets.all(8),
             indicator: BoxDecoration(
-                color: Colors.deepPurple,
-                borderRadius: BorderRadius.circular(24),),
+              color: Colors.deepPurple,
+              borderRadius: BorderRadius.circular(24),
+            ),
             tabs: const [
-              Text(
-                "Regular Straight",
-              ),
+              Text("Regular Straight"),
               Text("Regular Rounded"),
+              Text("Bold Straight"),
               Text("Bold Rounded"),
-              Text("Bold Rounded"),
-              Text("Solid Rounded"),
+              Text("Solid Straight"),
               Text("Solid Rounded"),
               Text("Brands"),
             ],
@@ -80,19 +77,9 @@ class _MyHomePageState extends State<MyHomePage> {
           IconsCard(icons: iconsList[5].icons, category: iconsList[5].category),
           IconsCard(icons: iconsList[6].icons, category: iconsList[6].category),
         ]),
-        // body: ListView.builder(
-        //   itemCount: iconsList.length,
-        //   itemBuilder: ((context, index) {
-        //     return IconsCard(
-        //         icons: iconsList[index].icons,
-        //         category: iconsList[index].category);
-        //   }),
-        // ),
       ),
     );
   }
-
-
 }
 
 class IconsCard extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uicons/uicons.dart';
+import 'package:uicons_brands/uicons_brands.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,38 +34,96 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  IconsList icons = IconsList("Brands", [
-    UIcons.brands.instagram,
-    UIcons.brands.meta,
-    UIcons.brands.whatsapp,
-    UIcons.brands.google,
-    UIcons.brands.apple,
-    UIcons.brands.twitter,
-    UIcons.brands.facebook,
-    UIcons.brands.facebook_messenger,
-    UIcons.brands.github,
-    UIcons.brands.gitlab,
-    UIcons.brands.youtube,
-    UIcons.brands.snapchat,
-    UIcons.brands.samsung,
-    UIcons.brands.microsoft,
-    UIcons.brands.airbnb,
-    UIcons.brands.android,
-    UIcons.brands.ibm,
-    UIcons.brands.illustrator,
-    UIcons.brands.photoshop,
-    UIcons.brands.python,
-    UIcons.brands.java,
-    UIcons.brands.c,
-    UIcons.brands.docker,
-    UIcons.brands.dropbox,
-    UIcons.brands.dribbble,
-    UIcons.brands.confluence,
-    UIcons.brands.jira,
-    UIcons.brands.oracle,
-    UIcons.brands.sap,
-    UIcons.brands.windows,
-  ]);
+  List<IconData> icons =  [
+      const UIconsBrands().abbot_laboratories,
+      const UIconsBrands().accusoft,
+      const UIconsBrands().acrobat,
+      const UIconsBrands().adobe,
+      const UIconsBrands().aecom,
+      const UIconsBrands().aero,
+      const UIconsBrands().after_effects,
+      const UIconsBrands().airbnb,
+      const UIconsBrands().algolia,
+      const UIconsBrands().amd,
+      const UIconsBrands().american_express,
+      const UIconsBrands().android,
+      const UIconsBrands().animate,
+      const UIconsBrands().app_store_ios,
+      const UIconsBrands().apple,
+      const UIconsBrands().apple_pay,
+      const UIconsBrands().artstation,
+      const UIconsBrands().astrazeneca,
+      const UIconsBrands().asus,
+      const UIconsBrands().atandt,
+      const UIconsBrands().atlassian,
+      const UIconsBrands().atom,
+      const UIconsBrands().audition,
+      const UIconsBrands().behance,
+      const UIconsBrands().bitcoin,
+      const UIconsBrands().blackberry,
+      const UIconsBrands().blogger,
+      const UIconsBrands().bluetooth,
+      const UIconsBrands().bootstrap,
+      const UIconsBrands().bridgestone,
+      const UIconsBrands().burger_king,
+      const UIconsBrands().c,
+      const UIconsBrands().capture,
+      const UIconsBrands().cc_amazon_pay,
+      const UIconsBrands().cc_apple_pay,
+      const UIconsBrands().cc_diners_club,
+      const UIconsBrands().cc_visa,
+      const UIconsBrands().centos,
+      const UIconsBrands().character,
+      const UIconsBrands().chromecast,
+      const UIconsBrands().cloudflare,
+      const UIconsBrands().confluence,
+      const UIconsBrands().creative_commons,
+      const UIconsBrands().creative_commons_by,
+      const UIconsBrands().creative_commons_nc,
+      const UIconsBrands().creative_commons_nc_eu,
+      const UIconsBrands().creative_commons_nc_jp,
+      const UIconsBrands().creative_commons_nd,
+      const UIconsBrands().creative_commons_pd,
+      const UIconsBrands().creative_commons_pd_alt,
+      const UIconsBrands().creative_commons_remix,
+      const UIconsBrands().creative_commons_sa,
+      const UIconsBrands().creative_commons_sampling,
+      const UIconsBrands().creative_commons_sampling_plus,
+      const UIconsBrands().creative_commons_share,
+      const UIconsBrands().creative_commons_zero,
+      const UIconsBrands().css3,
+      const UIconsBrands().css3_alt,
+      const UIconsBrands().dailymotion,
+      const UIconsBrands().deezer,
+      const UIconsBrands().delphi,
+      const UIconsBrands().dev,
+      const UIconsBrands().devianart,
+      const UIconsBrands().digg,
+      const UIconsBrands().dimension,
+      const UIconsBrands().discord,
+      const UIconsBrands().docker,
+      const UIconsBrands().dribbble,
+      const UIconsBrands().dropbox,
+      const UIconsBrands().drupal,
+      const UIconsBrands().ebay,
+      const UIconsBrands().elementor,
+      const UIconsBrands().ethereum,
+      const UIconsBrands().etsy,
+      const UIconsBrands().evernote,
+      const UIconsBrands().facebook,
+      const UIconsBrands().facebook_messenger,
+      const UIconsBrands().fedex,
+      const UIconsBrands().figma,
+      const UIconsBrands().firefox,
+      const UIconsBrands().firefox_browser,
+      const UIconsBrands().five_hundred_px,
+      const UIconsBrands().flickr,
+      const UIconsBrands().flipboard,
+      const UIconsBrands().fonts,
+      const UIconsBrands().foursquare,
+      const UIconsBrands().fresco,
+    ];
+  
 
   @override
   Widget build(BuildContext context) {
@@ -74,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         title: Text(widget.title),
       ),
-      body: IconsCard(icons: icons.icons, category: icons.category),
+      body: IconsCard(icons: icons, category: "Brands"),
     );
   }
 }
@@ -116,8 +174,3 @@ class IconsCard extends StatelessWidget {
   }
 }
 
-class IconsList {
-  final String category;
-  final List<IconData> icons;
-  IconsList(this.category, this.icons);
-}
