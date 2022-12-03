@@ -1,6 +1,6 @@
 # UIcons
 
-![Cover](images\uicons_cover.png)
+![Cover](uicons\images\uicons_cover.png)
 
 
 Derived Flutter IconPack of Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
