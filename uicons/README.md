@@ -1,6 +1,6 @@
 # UIcons
 
-![Cover](images\uicons_cover.png)
+![Cover](https://raw.githubusercontent.com/redleafsofts/uicons_flutter/main/uicons/images/uicons_cover.png)
 
 
 Flutter IconPack of Uicons.
@@ -18,13 +18,14 @@ Icon(UIcons.regularStraight.home)
 
 ### Available Styles
 
- - `regularStraight`
- - `regularRounded`
- - `boldStraight`
- - `boldRounded`
- - `solidStraight`
- - `solidRounded`
- - `brands`
+ - <a href="https://pub.dev/packages/uicons_regular_straight">`regularStraight`</a>
+ - <a href="https://pub.dev/packages/uicons_regular_rounded">`regularRounded`</a>
+ - <a href="https://pub.dev/packages/uicons_bold_straight">`boldStraight`</a>
+ - <a href="https://pub.dev/packages/uicons_bold_rounded">`boldRounded`</a>
+ - <a href="https://pub.dev/packages/uicons_solid_straight">`solidStraight`</a>
+ - <a href="https://pub.dev/packages/uicons_solid_rounded">`solidRounded`</a>
+ - <a href="https://pub.dev/packages/uicons_brands">`brands`</a>
+
 
 
 ## For Development

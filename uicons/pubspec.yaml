@@ -1,8 +1,8 @@
 name: uicons
-description: UIcons for Flutter package project.
+description: A Flutter package project for using UIcons Icon Pack as IconData.
 version: 1.0.0
 homepage: "https://www.flaticon.com/uicons/interface-icons"
-publish_to: "none"
+repository: "https://github.com/redleafsofts/uicons_flutter/tree/main/uicons"
 
 environment:
   sdk: '>=2.18.5 <3.0.0'
@@ -12,31 +12,16 @@ dependencies:
   flutter:
     sdk: flutter
 
-  uicons_bold_rounded:
-    path: ../uicons_bold_rounded
-
-  uicons_bold_straight:
-    path: ../uicons_bold_straight
-
-  uicons_brands:
-    path: ../uicons_brands
-
-  uicons_regular_rounded:
-    path: ../uicons_regular_rounded
-
-  uicons_regular_straight:
-    path: ../uicons_regular_straight
-
-  uicons_solid_rounded:
-    path: ../uicons_solid_rounded
-
-  uicons_solid_straight:
-    path: ../uicons_solid_straight
+  uicons_bold_rounded: ^1.0.0
+  uicons_bold_straight: ^1.0.0
+  uicons_brands: ^1.0.0
+  uicons_regular_rounded: ^1.0.0
+  uicons_regular_straight: ^1.0.0
+  uicons_solid_rounded: ^1.0.0
+  uicons_solid_straight: ^1.0.0
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
-

@@ -1,7 +1,7 @@
 name: uicons_regular_straight
-description: Flutter Icons for UIcons Regular Straight.
+description: A Flutter package project for using UIcons Regulat Straight Icon Pack as IconData.
 version: 1.0.0
-repository: "https://github.com/redleafsofts/uicons_flutter"
+repository: "https://github.com/redleafsofts/uicons_flutter/tree/main/uicons_regular_straight"
 homepage: "https://www.flaticon.com/uicons/interface-icons"
 
 environment:

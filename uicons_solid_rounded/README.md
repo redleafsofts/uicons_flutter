@@ -1,6 +1,6 @@
 # UIcons Solid Rounded
 
-![Cover](images/uicons_cover.png)
+![Cover](https://raw.githubusercontent.com/redleafsofts/uicons_flutter/main/uicons/images/uicons_cover.png)
 
 
 Flutter IconPack of Uicons Solid Rounded.
