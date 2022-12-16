@@ -3,17 +3,18 @@
 ![Cover](https://raw.githubusercontent.com/redleafsofts/uicons_flutter/main/uicons/images/uicons_cover.png)
 
 
-Flutter IconPack of Uicons.
+Flutter IconPack of Uicons by <a href="https://redleafsofts.com/">RedLeaf Softs</a>.
 
-## Installation
-____
+To preview all Icons visit <a href="https://www.flaticon.com/uicons">UIcons</a>.
+
+## Usage
 
 ```dart
 import 'package:uicons/uicons.dart';
 
-...
-Icon(UIcons.regularStraight.home)
-...
+Container(
+    child: Icon(UIcons.regularStraight.home)
+)
 ```
 
 ### Available Styles
@@ -28,8 +29,8 @@ Icon(UIcons.regularStraight.home)
 
 
 
+
 ## For Development
-____
 
 ### Build Font
 
@@ -42,6 +43,7 @@ ____
  - Create Font.
 
  - Copy font and dart class to respective package
+
 
 
 

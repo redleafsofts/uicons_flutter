@@ -1,7 +1,7 @@
 name: uicons
 description: A Flutter package project for using UIcons Icon Pack as IconData.
-version: 1.0.0
-homepage: "https://www.flaticon.com/uicons/interface-icons"
+version: 1.0.1
+homepage: "https://github.com/redleafsofts/uicons_flutter/tree/main/uicons"
 repository: "https://github.com/redleafsofts/uicons_flutter/tree/main/uicons"
 
 environment:
